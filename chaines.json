@@ -1,0 +1,345 @@
+[   
+    
+    {
+        "id": "2m_monde_hd",
+        "nom": "2M Monde HD",
+        "logo": "https://i.imgur.com/MvpntzA.png",
+        "url": "https://stream-lb.livemediama.com/2m/hls/master.m3u8",
+        "langue": "français",
+        "categorie": "général"
+    },
+    {
+        "id": "7_info",
+        "nom": "7 Info",
+        "logo": "https://i.imgur.com/jcl1nNR.png",
+        "url": "https://video1.getstreamhosting.com:1936/8042/8042/playlist.m3u8",
+        "langue": "français",
+        "categorie": "info"
+    },
+    {
+        "id": "africa_24_sport",
+        "nom": "Africa 24 Sport",
+        "logo": "https://i0.wp.com/africa24tv.com/wp-content/uploads/2023/12/LOGO-AFRICASPORT-4-HD-sans-fond.png?fit=512%2C107&ssl=1",
+        "url": "https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8",
+        "langue": "français",
+        "categorie": "sport"
+    },
+    {
+        "id": "mr_bean_anime",
+        "nom": "Mr Bean Animé",
+        "logo": "https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png",
+        "url": "https://amg00627-amg00627c31-rakuten-fr-3991.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanfrcc-rakutenfr/playlist.m3u8",
+        "langue": "français",
+        "categorie": "animation"
+    },
+    
+    {
+        "id": "2m_monde_hd",
+        "nom": "2M Monde HD",
+        "logo": "https://i.imgur.com/MvpntzA.png",
+        "url": "https://stream-lb.livemediama.com/2m/hls/master.m3u8"
+    },
+    {
+        "id": "7_info",
+        "nom": "7 Info",
+        "logo": "https://i.imgur.com/jcl1nNR.png",
+        "url": "https://video1.getstreamhosting.com:1936/8042/8042/playlist.m3u8"
+    },
+    {
+        "id": "20_minutes_tv",
+        "nom": "20 Minutes TV",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/20_Minutes_TV_IDF_logo_%282023%29.png/960px-20_Minutes_TV_IDF_logo_%282023%29.png",
+        "url": "https://live-20minutestv.digiteka.com/1961167769/index.m3u8"
+    },
+    {
+        "id": "a12_tv",
+        "nom": "A12 TV",
+        "logo": "https://i.imgur.com/JgnjgvF.png",
+        "url": "https://video1.getstreamhosting.com:1936/8250/8250/manifest.m3u8"
+    },
+    {
+        "id": "a_plus_ivoire",
+        "nom": "A+ Ivoire",
+        "logo": "https://i.imgur.com/yOW0vyP.png",
+        "url": "http://69.64.57.208/atv/playlist.m3u8"
+    },
+    {
+        "id": "adn_tv_plus",
+        "nom": "ADN TV+",
+        "logo": "https://i.imgur.com/HQZQyWt.png",
+        "url": "https://d3b73b34o7cvkq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gz2sgqzp076kf/adn.m3u8"
+    },
+    {
+        "id": "africa_24",
+        "nom": "Africa 24",
+        "logo": "https://africa24tv.com/wp-content/uploads/2021/09/logo.png",
+        "url": "https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8"
+    },
+    {
+        "id": "africa_24_sport",
+        "nom": "Africa 24 Sport",
+        "logo": "https://i0.wp.com/africa24tv.com/wp-content/uploads/2023/12/LOGO-AFRICASPORT-4-HD-sans-fond.png?fit=512%2C107&ssl=1",
+        "url": "https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8"
+    },
+    {
+        "id": "africanews_french",
+        "nom": "Africanews French",
+        "logo": "https://i.imgur.com/5UxU4zc.png",
+        "url": "https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8"
+    },
+    {
+        "id": "action_hd",
+        "nom": "Action HD",
+        "logo": "https://i.imgur.com/Zv9VsVq.png",
+        "url": "http://rezofoot.tv/Action/index.m3u8"
+    },
+    {
+        "id": "alerte_a_malibu",
+        "nom": "Alerte à Malibu",
+        "logo": "https://i.imgur.com/hBiB6uk.png",
+        "url": "https://jmp2.uk/plu-60afaa535580be0007ac9ee4.m3u8"
+    },
+    {
+        "id": "arte_fr",
+        "nom": "Arte",
+        "logo": "https://i.imgur.com/ecXMjNl.png",
+        "url": "https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8"
+    },
+    {
+        "id": "bfm2",
+        "nom": "BFM2",
+        "logo": "https://alloforfait.fr/wp-content/uploads/2024/03/logo-bfm2-300x200.jpg",
+        "url": "https://d1ib1gsg71oarf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-scp7wda722jph/BFM2_FR.m3u8"
+    },
+    {
+        "id": "bfm_business",
+        "nom": "BFM Business",
+        "logo": "https://i.imgur.com/psqIHn4.png",
+        "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_BUSINESS/index.m3u8?end=END&start=LIVE"
+    },
+    {
+        "id": "bfm_lyon",
+        "nom": "BFM Lyon",
+        "logo": "https://i.imgur.com/0uiiZRo.png",
+        "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_LYON/index.m3u8?end=END&start=LIVE"
+    },
+    {
+        "id": "bfm_marseille",
+        "nom": "BFM Marseille",
+        "logo": "https://i.imgur.com/h7t0l6q.png",
+        "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_MARSEILLEPROV/index.m3u8?end=END&start=LIVE"
+    },
+    {
+        "id": "bfm_nice_cote_d_azur",
+        "nom": "BFM Nice Côte d'Azur",
+        "logo": "https://i.imgur.com/iiVFvIw.png",
+        "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_NICECOTEDAZUR/index.m3u8?end=END&start=LIVE"
+    },
+    {
+        "id": "mr_bean_anime",
+        "nom": "Mr Bean Animé",
+        "logo": "https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png",
+        "url": "https://amg00627-amg00627c31-rakuten-fr-3991.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanfrcc-rakutenfr/playlist.m3u8"
+    },
+    {
+        "id": "beb_tv",
+        "nom": "Beb TV",
+        "logo": "https://i.imgur.com/3XOk1lP.jpeg",
+        "url": "https://live-hls-qunv.livepush.io/live_cdn/em8A-kbzIfHqu73/index.m3u8"
+    },
+    {
+        "id": "bel_rtl",
+        "nom": "Bel RTL",
+        "logo": "https://i.imgur.com/0DUprIW.png",
+        "url": "https://bel-live-hls.akamaized.net/hls/live/2038650/BEL-Live-HLS/master.m3u8"
+    },
+
+
+
+    {
+        "id": "30a_golf_kingdom",
+        "nom": "30A Golf Kingdom",
+        "logo": "https://i.imgur.com/Lv53nh4.png",
+        "url": "https://30a-tv.com/feeds/vidaa/golf.m3u8"
+    },
+    {
+        "id": "sport_sk",
+        "nom": "Šport (Slovaquie)",
+        "logo": "https://i.imgur.com/oAtcxNZ.png",
+        "url": "http://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8"
+    },
+    {
+        "id": "aspor",
+        "nom": "A Spor",
+        "logo": "https://i.imgur.com/ZhkZzLf.png",
+        "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8"
+    },
+    {
+        "id": "acc_network",
+        "nom": "ACC Network",
+        "logo": "https://i.imgur.com/TpCkbkT.png",
+        "url": "http://206.212.244.63/2486/index.m3u8"
+    },
+    {
+        "id": "accdn",
+        "nom": "ACCDN",
+        "logo": "https://i.imgur.com/V6Kaqha.png",
+        "url": "https://raycom-accdn-firetv.amagi.tv/playlist.m3u8"
+    },
+    {
+        "id": "aci_sport_tv",
+        "nom": "ACI Sport TV",
+        "logo": "https://i.imgur.com/U8cHMOt.png",
+        "url": "https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8"
+    },
+    {
+        "id": "acl_cornhole_tv",
+        "nom": "ACL Cornhole TV",
+        "logo": "https://i.imgur.com/lBIq2ZD.png",
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/acl-cornhole-tv/aclco.m3u8?ads.vf=Sl3XhzpgcOy"
+    },
+    {
+        "id": "adjarasport_1",
+        "nom": "Adjarasport 1",
+        "logo": "https://i.imgur.com/SVV5xHC.png",
+        "url": "https://live20.bozztv.com/dvrfl05/gin-adjara/index.m3u8"
+    },
+    {
+        "id": "ado_tv",
+        "nom": "ADO TV",
+        "logo": "https://i.imgur.com/pxFamLr.png",
+        "url": "https://strhls.streamakaci.tv/ortb/ortb2-multi/playlist.m3u8"
+    },
+    {
+        "id": "africa_24_sport",
+        "nom": "Africa 24 Sport",
+        "logo": "https://i0.wp.com/africa24tv.com/wp-content/uploads/2023/12/LOGO-AFRICASPORT-4-HD-sans-fond.png?fit=512%2C107&ssl=1",
+        "url": "https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8"
+    },
+    {
+        "id": "al_iraqia_sport",
+        "nom": "Al Iraqia Sport",
+        "logo": "https://i.imgur.com/DrrlxTO.png",
+        "url": "https://imn-live.esite-lab.com/hls/iraqia-sports-1.m3u8"
+    },
+    {
+        "id": "alfa_sport",
+        "nom": "Alfa Sport",
+        "logo": "https://i.imgur.com/vhMPYIW.png",
+        "url": "https://dev.aftermind.xyz/edge-hls/unitrust/alfasports/index.m3u8?token=8TXWzhY3h6jrzqEqx"
+    },
+    {
+        "id": "alkass_one",
+        "nom": "Alkass One",
+        "logo": "https://i.imgur.com/10mmlha.png",
+        "url": "https://liveeu-gcp.alkassdigital.net/alkass1-p/main.m3u8"
+    },
+    {
+        "id": "alkass_two",
+        "nom": "Alkass Two",
+        "logo": "https://i.imgur.com/8w61kFX.png",
+        "url": "https://liveeu-gcp.alkassdigital.net/alkass2-p/main.m3u8"
+    },
+    {
+        "id": "alkass_three",
+        "nom": "Alkass Three",
+        "logo": "https://i.imgur.com/d57BdFh.png",
+        "url": "https://liveeu-gcp.alkassdigital.net/alkass3-p/main.m3u8"
+    },
+    {
+        "id": "alkass_four",
+        "nom": "Alkass Four",
+        "logo": "https://i.imgur.com/iDL65Wu.png",
+        "url": "https://liveeu-gcp.alkassdigital.net/alkass4-p/main.m3u8"
+    },
+    {
+        "id": "alkass_five",
+        "nom": "Alkass Five",
+        "logo": "https://i.imgur.com/6RGNGsM.png",
+        "url": "https://liveeu-gcp.alkassdigital.net/alkass5-p/main.m3u8"
+    },
+    {
+        "id": "alkass_six",
+        "nom": "Alkass Six",
+        "logo": "https://i.imgur.com/CrPSPSC.png",
+        "url": "https://liveeu-gcp.alkassdigital.net/alkass6-p/main.m3u8"
+    },
+    {
+        "id": "alkass_seven",
+        "nom": "Alkass Seven",
+        "logo": "https://i.imgur.com/3eyHP3S.png",
+        "url": "https://liveeu-gcp.alkassdigital.net/alkass7-p/main.m3u8"
+    },
+    {
+        "id": "alkass_shoof",
+        "nom": "Alkass SHOOF",
+        "logo": "https://shoof.alkass.net/assets/images/shoof.png",
+        "url": "https://liveeu-gcp.alkassdigital.net/shooflive/main.m3u8"
+    },
+    {
+        "id": "alkass_shoof_2",
+        "nom": "Alkass SHOOF 2",
+        "logo": "https://shoof.alkass.net/assets/images/shoof2.png",
+        "url": "https://liveeu-gcp.alkassdigital.net/shooflive2/main.m3u8"
+    },
+    {
+        "id": "antenasport",
+        "nom": "AntenaSport",
+        "logo": "https://cdn.as.ro/wp-content/themes/antenasport/images/icons-as/as.svg",
+        "url": "https://hls.rundletv.eu.org/LIVE$AntenaSport/6.m3u8/Level/300720051?end=END&start=LIVE"
+    },
+    {
+        "id": "arena_fight",
+        "nom": "Arena Fight",
+        "logo": "https://i.imgur.com/5abTrJU.png",
+        "url": "https://nl1.nghk.ai/ArenaFight/index.m3u8"
+    },
+    {
+        "id": "arena_sport_1_premium",
+        "nom": "Arena Sport 1 Premium",
+        "logo": "https://i.imgur.com/csv6YsL.png",
+        "url": "https://nl1.nghk.ai/ArenaPremium1HD/index.m3u8"
+    },
+    {
+        "id": "arena_sport_2_premium",
+        "nom": "Arena Sport 2 Premium",
+        "logo": "https://i.imgur.com/ztOmQ7P.png",
+        "url": "https://nl1.nghk.ai/ArenaPremium2HD/index.m3u8"
+    },
+    {
+        "id": "arena_sport_3_premium",
+        "nom": "Arena Sport 3 Premium",
+        "logo": "https://i.imgur.com/gpqemLf.png",
+        "url": "https://nl1.nghk.ai/ArenaPremium3HD/index.m3u8"
+    },
+    {
+        "id": "arena_sport_1_rs",
+        "nom": "Arena Sport 1 HD",
+        "logo": "https://i.imgur.com/RJrJGbW.png",
+        "url": "https://nl1.nghk.ai/ArenaSport1HD/index.m3u8"
+    },
+    {
+        "id": "arena_sport_2_rs",
+        "nom": "Arena Sport 2 HD",
+        "logo": "https://i.imgur.com/aqlECBj.png",
+        "url": "https://nl1.nghk.ai/ArenaSport2HD/index.m3u8"
+    },
+    {
+        "id": "arena_sport_3_rs",
+        "nom": "Arena Sport 3 HD",
+        "logo": "https://i.imgur.com/3r3burN.png",
+        "url": "https://nl1.nghk.ai/ArenaSport3HD/index.m3u8"
+    },
+    {
+        "id": "arena_sport_4_rs",
+        "nom": "Arena Sport 4 HD",
+        "logo": "https://i.imgur.com/h1XhGkz.png",
+        "url": "https://nl1.nghk.ai/ArenaSport4HD/index.m3u8"
+    },
+    {
+        "id": "arena_sport_5_rs",
+        "nom": "Arena Sport 5 HD",
+        "logo": "https://i.imgur.com/036qMgu.png",
+        "url": "https://nl1.nghk.ai/ArenaSport5HD/index.m3u8"
+    }
+]
