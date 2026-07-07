@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // 3. Fonction pour ouvrir la modale et lancer le flux IPTV via le Proxy Serverless
     function ouvrirModale(chaine) {
         modalTitle.textContent = chaine.nom;
-        modal.style.display = \"flex\";
+        modal.style.display = "flex";
 
         // Construction de l'URL du proxy (Fonctionne en local et sur Vercel automatiquement)
         const urlProxy = `/api/proxy?url=${encodeURIComponent(chaine.url)}`;
