@@ -2756,7 +2756,7 @@
     "nom": "ADN TV+",
     "logo": "https://i.imgur.com/HQZQyWt.png",
     "url": "https://d3b73b34o7cvkq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gz2sgqzp076kf/adn.m3u8",
-    "langue": "français",
+    "langue": "non spécifié",
     "categorie": "Animation"
   },
   {
@@ -2948,7 +2948,7 @@
     "nom": "Africa 24 English",
     "logo": "https://africa24tv.com/wp-content/uploads/2023/12/logo-Africa24TVEnglish.png",
     "url": "https://edge20.vedge.infomaniak.com/livecast/ik:africa24english/manifest.m3u8",
-    "langue": "français",
+    "langue": "anglais",
     "categorie": "information"
   },
   {
@@ -2996,7 +2996,7 @@
     "nom": "Africanews English",
     "logo": "https://i.imgur.com/5UxU4zc.png",
     "url": "https://cdn-euronews.akamaized.net/live/eds/africanews-en/25049/index.m3u8",
-    "langue": "français",
+    "langue": "anglais",
     "categorie": "information"
   },
   {
