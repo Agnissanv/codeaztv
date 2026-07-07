@@ -53,25 +53,26 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // 3. Fonction pour ouvrir la modale et lancer le flux IPTV
+    // 3. Fonction pour ouvrir la modale et lancer le flux IPTV via le Proxy Serverless
     function ouvrirModale(chaine) {
         modalTitle.textContent = chaine.nom;
-        modal.style.display = "flex";
+        modal.style.display = \"flex\";
 
-        // Si le navigateur gère le HLS nativement (comme Safari)
+        // Construction de l'URL du proxy (Fonctionne en local et sur Vercel automatiquement)
+        const urlProxy = `/api/proxy?url=${encodeURIComponent(chaine.url)}`;
+
         if (videoPlayer.canPlayType('application/vnd.apple.mpegurl')) {
-            videoPlayer.src = chaine.url;
+            // Pour Safari ou mobiles
+            videoPlayer.src = urlProxy;
         } 
-        // Sinon on utilise la bibliothèque Hls.js (Chrome, Firefox, Edge, etc.)
         else if (Hls.isSupported()) {
-            if (hls) {
-                hls.destroy(); // On détruit l'ancienne instance si elle existe
-            }
+            // Pour Chrome, Firefox, Edge
+            if (hls) hls.destroy();
             hls = new Hls();
-            hls.loadSource(chaine.url);
+            hls.loadSource(urlProxy); // On charge le flux à travers le proxy
             hls.attachMedia(videoPlayer);
         } else {
-            alert("Votre navigateur ne supporte pas la lecture de ce flux vidéo.");
+            alert("Votre navigateur ne supporte pas ce flux.");
         }
     }
 
