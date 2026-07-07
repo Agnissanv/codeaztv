@@ -58,16 +58,20 @@ document.addEventListener("DOMContentLoaded", () => {
         modalTitle.textContent = chaine.nom;
         modal.style.display = "flex";
 
+        // Si le navigateur gère le HLS nativement (comme Safari)
         if (videoPlayer.canPlayType('application/vnd.apple.mpegurl')) {
             videoPlayer.src = chaine.url;
         } 
+        // Sinon on utilise la bibliothèque Hls.js (Chrome, Firefox, Edge, etc.)
         else if (Hls.isSupported()) {
-            if (hls) hls.destroy();
+            if (hls) {
+                hls.destroy(); // On détruit l'ancienne instance si elle existe
+            }
             hls = new Hls();
             hls.loadSource(chaine.url);
             hls.attachMedia(videoPlayer);
         } else {
-            alert("Votre navigateur ne supporte pas ce flux.");
+            alert("Votre navigateur ne supporte pas la lecture de ce flux vidéo.");
         }
     }
 
