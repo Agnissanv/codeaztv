@@ -1,5 +1,13 @@
 [
   {
+    "id": "C8",
+    "nom": "C8",
+    "logo": "https://i.imgur.com/LXhXF8l.png",
+    "url": "https://www.dailymotion.com/video/x5gv5rr",
+    "langue": "français",
+    "categorie": "Films-Série"
+  },
+  {
     "id": "flix_hd",
     "nom": "&flix HD",
     "logo": "https://dtil.tmsimg.com/assets/GNLZZGG0022J67W.png?lock=720x540",
