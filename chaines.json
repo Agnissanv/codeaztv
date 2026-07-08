@@ -1,9 +1,9 @@
 [
   {
-    "id": "C_8",
-    "nom": "C8",
-    "logo": "https://i.imgur.com/Zv9VsVq.png",
-    "url": "https://raw.githubusercontent.com/schumijo/iptv/main/playlists/canalplus/c8.m3u8",
+    "id": "test",
+    "nom": "test",
+    "logo": "https://static.epg.best/fr/C8.fr.png",
+    "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/tf1plus/tfx.m3u8",
     "langue": "français",
     "categorie": "Films-Série"
   },
