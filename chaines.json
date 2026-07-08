@@ -1,9 +1,9 @@
 [
   {
-    "id": "Action_HD",
-    "nom": "Action",
+    "id": "C_8",
+    "nom": "C8",
     "logo": "https://i.imgur.com/Zv9VsVq.png",
-    "url": "http://rezofoot.tv/Action/index.m3u8",
+    "url": "https://raw.githubusercontent.com/schumijo/iptv/main/playlists/canalplus/c8.m3u8",
     "langue": "français",
     "categorie": "Films-Série"
   },
