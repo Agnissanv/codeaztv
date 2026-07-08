@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const chainesFiltrees = toutesLesChaines.filter(chaine => {
             // Sécurité stricte : Uniquement HTTPS et uniquement les fichiers français
             const estHttps = chaine.url && chaine.url.startsWith("https://");
-            const estFrancais = chaine.langue === "fr";
+            const estFrancais = chaine.langue === "français";
 
             if (!estHttps || !estFrancais) {
                 return false; // On ignore purement et simplement le HTTP et le non-FR
