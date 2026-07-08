@@ -34,8 +34,7 @@ http://149.71.34.166:8000/play/a001/index.m3u8
 https://mediaserver.abnvideos.com/streams/abnbiblemovies.m3u8
 #EXTINF:-1 tvg-id="Action24.gr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/88/Action24-logo-small.png" group-title="Movies",Action 24 (1080p)
 http://actionlive.siliconweb.com/actionabr/actiontv/playlist.m3u8
-#EXTINF:-1 tvg-id="Action.fr@HD" tvg-logo="https://i.imgur.com/Zv9VsVq.png" group-title="Movies",Action HD (720p)
-http://rezofoot.tv/Action/index.m3u8
+
 #EXTINF:-1 tvg-id="AdrenalinaPuraTV.us@Brazil" tvg-logo="https://i.imgur.com/Pvid2iH.png" group-title="Movies",Adrenalina Pura TV
 https://jmp2.uk/plu-61b790b985706b00072cb797.m3u8
 #EXTINF:-1 tvg-id="AdrenalinaPuraTV.us@SD" tvg-logo="https://i.imgur.com/Pvid2iH.png" group-title="Movies",Adrenalina Pura TV (720p)

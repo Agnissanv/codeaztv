@@ -3,13 +3,14 @@
     "id": "Action_HD",
     "nom": "Action",
     "logo": "https://i.imgur.com/Zv9VsVq.png",
-    "url": "http://rezofoot.tv/Action/index.m3u8",
+    "url": "https://rezofoot.tv/Action/index.m3u8",
     "langue": "français",
     "categorie": "Films-Série"
   },
+  
   {
-    "id": "2m_monde",
-    "nom": "2M Monde",
+    "id": "2m_monde_1",
+    "nom": "2M Monde 1",
     "logo": "https://i.imgur.com/MvpntzA.png",
     "url": "https://stream-lb.livemediama.com/2m/hls/master.m3u8",
     "langue": "français",
@@ -17,7 +18,7 @@
   },
   {
     "id": "2m_monde_2",
-    "nom": "2M Monde",
+    "nom": "2M Monde 2",
     "logo": "https://i.imgur.com/MvpntzA.png",
     "url": "https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8",
     "langue": "français",

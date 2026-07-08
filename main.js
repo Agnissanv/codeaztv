@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const estFrancais = chaine.langue === "français";
 
             if (!estHttps || !estFrancais) {
-                return false; // On ignore purement et simplement le HTTP et le non-FR
+                return false; // On ignore purement et simplement le HTTP
             }
 
             // Application des filtres de l'interface (si actifs)
