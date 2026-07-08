@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .catch(error => {
             console.error("Erreur lors du chargement du JSON:", error);
-            // Si ça plante, on affiche l'erreur directement sur l'interface au lieu de laisser un écran noir
+            // Affichage de l'erreur sur l'interface Code A-Z TV
             gridContainer.innerHTML = `
                 <div style="grid-column: 1/-1; text-align: center; padding: 40px; color: #ff0000; font-weight: bold;">
                     <p>⚠️ Code A-Z TV : Impossible de charger le catalogue des chaînes.</p>
@@ -41,14 +41,24 @@ document.addEventListener("DOMContentLoaded", () => {
     if (filterLangue) filterLangue.addEventListener("change", filtrerEtAfficherChaines);
     if (filterCategorie) filterCategorie.addEventListener("change", filtrerEtAfficherChaines);
 
-    // 3. Fonction maîtresse de filtrage combiné
+    // 3. Fonction maîtresse de filtrage combiné (Focus HTTPS et Français uniquement)
     function filtrerEtAfficherChaines() {
         const langueSelectionnee = filterLangue ? filterLangue.value : "all";
         const categorieSelectionnee = filterCategorie ? filterCategorie.value : "all";
 
         const chainesFiltrees = toutesLesChaines.filter(chaine => {
+            // Sécurité stricte : Uniquement HTTPS et uniquement les fichiers français
+            const estHttps = chaine.url && chaine.url.startsWith("https://");
+            const estFrancais = chaine.langue === "fr";
+
+            if (!estHttps || !estFrancais) {
+                return false; // On ignore purement et simplement le HTTP et le non-FR
+            }
+
+            // Application des filtres de l'interface (si actifs)
             const matchLangue = (langueSelectionnee === "all" || chaine.langue === langueSelectionnee);
             const matchCategorie = (categorieSelectionnee === "all" || chaine.categorie === categorieSelectionnee);
+            
             return matchLangue && matchCategorie;
         });
 
@@ -60,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
         gridContainer.innerHTML = ""; // On nettoie la grille à chaque filtrage
         
         if (chaines.length === 0) {
-            gridContainer.innerHTML = `<p style="grid-column: 1/-1; text-align: center; color: #555; padding: 40px;">Aucune chaîne ne correspond à ces critères.</p>`;
+            gridContainer.innerHTML = `<p style="grid-column: 1/-1; text-align: center; color: #555; padding: 40px;">Aucune chaîne disponible ou correspondante à ces critères.</p>`;
             return;
         }
 
@@ -91,23 +101,23 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // 5. Fonction pour ouvrir la modale et lancer le flux via le Proxy Vercel
+    // 5. Fonction pour ouvrir la modale et lancer le flux direct en HTTPS
     function ouvrirModale(chaine) {
         if (!modal || !modalTitle || !videoPlayer) return;
 
         modalTitle.textContent = chaine.nom;
         modal.style.display = "flex";
 
-        // Utilisation automatique du proxy pour briser les blocages CORS et HTTP en ligne
-        const urlProxy = `/api/proxy?url=${encodeURIComponent(chaine.url)}`;
+        // Connexion directe et sécurisée au flux d'origine sans passer par un proxy
+        const urlDirecte = chaine.url;
 
         if (videoPlayer.canPlayType('application/vnd.apple.mpegurl')) {
-            videoPlayer.src = urlProxy;
+            videoPlayer.src = urlDirecte;
         } 
         else if (Hls.isSupported()) {
             if (hls) hls.destroy();
             hls = new Hls();
-            hls.loadSource(urlProxy);
+            hls.loadSource(urlDirecte);
             hls.attachMedia(videoPlayer);
         } else {
             alert("Votre navigateur ne supporte pas ce flux.");
